@@ -8,8 +8,10 @@ export class LessonResolver {
     return {
       id: 'ahash',
       name: 'Physics Class',
-      startDarte: new Date().toISOString(),
-      endDate: new Date().toISOString(),
+      // prettier-ignore
+      startDarte: (new Date()).toISOString(),
+      // prettier-ignore
+      endDate: (new Date()).toISOString(),
     };
   }
 }
