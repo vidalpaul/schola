@@ -9,9 +9,9 @@ export class LessonResolver {
       id: 'ahash',
       name: 'Physics Class',
       // prettier-ignore
-      startDarte: (new Date()).toISOString(),
+      startDarte: (new Date()).toLocaleDateString(),
       // prettier-ignore
-      endDate: (new Date()).toISOString(),
+      endDate: (new Date()).toLocaleDateString(),
     };
   }
 }
